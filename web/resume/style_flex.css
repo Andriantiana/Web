@@ -1,0 +1,132 @@
+@font-face 
+{ 
+/* Définition d'une nouvelle police nommée CAC Champagne */
+    font-family: 'cac_champagneregular';
+    src: url('cac_champagne-webfont.eot');
+    src:url('cac_champagne-webfont.woff') format('woff'),
+         url('cac_champagne-webfont.svg#cac_champagneregular') format('svg');
+}
+
+/* ElÃ©ments principaux de la page */
+
+body
+{
+	background-color:LightGrey;
+    font-family: Arial, Impact, sans-seriff;
+    color: #181818;
+	display: flex;
+	flex-direction: row;
+}
+
+body>*:first-child
+{
+    align-self: stretch;
+	background:black;
+	min-width:50px;
+	width: 10%;
+}
+}
+
+
+
+section h1, footer h1, nav a
+{
+    font-family: Arial, Impact, sans-seriff;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+section
+{
+	padding: 10px;
+	border: 1px solid black;
+	min-width: 200px;
+	min-height: 300px;
+	height: 50px;
+	overflow: auto;
+	width: 25%;
+	text-align: left;
+	overflow: auto;
+	word-wrap: normal;
+	margin-top: 2px;
+	margin-right: 0px;
+	margin-left: 1.5px;
+	margin-bottom: 1px;
+}
+
+
+/* Header */
+
+header
+{
+    background: url('image/chaos.jpg') no-repeat top;
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+	color: white;
+    display: flex;
+	flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+
+header h1
+{
+    font-family: 'cac_champagneregular', Arial, Impact, sans-seriff;
+    font-size: 3.5em;
+    font-weight: normal;
+    margin: 0 0 0 10px;
+}
+
+#Introduction
+{
+	font-family:Arial, Impact, sans-seriff;
+	text-align: center;
+}
+
+
+#Corps
+{
+	display: flex;
+	flex-direction: row;
+    justify-content: space-between;
+	flex-wrap: nowrap;
+    align-items: start;
+	margin: auto;
+}
+
+#Experiences
+{
+	padding: 12px;
+	min-width: 250px;
+	height: 50px;
+	overflow: auto;
+}
+
+
+
+#Languages ul
+{
+    list-style-type: none;
+    display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-right: 15px;
+}
+
+#Languages li
+{
+    display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-right: 15px;
+}
+
+
+#Interests ul
+{
+	list-style-type: none;
+    display: flex;
+	flex-direction: column;
+}

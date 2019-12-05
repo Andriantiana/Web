@@ -1,0 +1,25 @@
+/*body
+{
+	background-color:black;
+	background-image:url("image/red_wine_glass.jpeg");
+	background-attachment:fixed, scroll; 
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	font-family: Arial, Impact, sans-seriff;
+    color: white;
+	display: flex;
+	flex-direction: column;
+}*/
+header
+{
+	text-align: center;
+	clear:both;
+}
+.imageflottante
+{
+	text-align: center;
+	float: left;
+	width:10em;
+	height: auto;
+}
